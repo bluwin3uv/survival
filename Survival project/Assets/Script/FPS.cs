@@ -120,7 +120,7 @@ public class FPS : MonoBehaviour
     {
         if (isHiding)
         {
-            Cursor.lockState = CursorLockMode.Locked;// locks cursor in the middle of the screen;
+            Cursor.lockState = CursorLockMode.Locked;// locks cursor in the middle of the screen
         }
         else
         {
