@@ -16,13 +16,16 @@ public class FPS : MonoBehaviour
     public Texture2D targetTexture; // applying texure 
   //  public Texture2D foundTexture;
     public Rect targetLocation; // where the texure is located
-    private bool locked; // 
+    public Rect miniMap;
+    public bool locked; // 
     private float pitch; // rotation of x axis
     private float yaw; // rotation of y axis
-    private GameObject camm; // the FPS camera
+    public GameObject camm; // the FPS camera
     public float gravity = 14f; // gravity 
-    private CharacterController controller; // character controller
+    public CharacterController controller; // character controller
     private Vector3 movement; // player movement
+    public RenderTexture texureMap;
+    public Texture hud;
 
     void Start()
     {
@@ -30,7 +33,7 @@ public class FPS : MonoBehaviour
         camm = GameObject.Find("Main Camera"); // finding the main camera
     }
 
-    void Update()
+    public void MoveCam()
     {
         Movement(); // movement function
         if(locked) // the camera only rotates when locked is checked
@@ -41,7 +44,7 @@ public class FPS : MonoBehaviour
        // Shoot();
     }
 
-    void Shoot()
+    public void Shoot()
     {
         RaycastHit hit;
         Debug.DrawRay(camm.transform.position, camm.transform.forward, Color.blue);
@@ -69,9 +72,13 @@ public class FPS : MonoBehaviour
         float scrW = Screen.width / 16;
         float scrH = Screen.height / 9;
         GUI.DrawTexture(new Rect(scrW * targetLocation.x, scrH * targetLocation.y, scrW * targetLocation.width, scrH * targetLocation.height), targetTexture);
+        GUI.DrawTexture(new Rect(scrW * miniMap.x, scrH * miniMap.y, scrW * miniMap.width, scrH * miniMap.height),texureMap);
+        GUI.DrawTexture(new Rect(0, 0, scrW * 16, scrH * 9), hud);
+        
+
     }
 
-    void Movement()
+   public void Movement()
     {
         if (controller.isGrounded)
         {   // setting the arrow keys inputs 
@@ -89,7 +96,7 @@ public class FPS : MonoBehaviour
         controller.Move(movement * Time.deltaTime); 
     }
 
-    void CameraRotation()
+    public void CameraRotation()
     {
         float mouseX = Input.GetAxis("Mouse X");
         float mouseY = Input.GetAxis("Mouse Y");
@@ -111,8 +118,8 @@ public class FPS : MonoBehaviour
 
     void Hide(bool isHiding) 
     {
-        if(isHiding)
-        {   
+        if (isHiding)
+        {
             Cursor.lockState = CursorLockMode.Locked;// locks cursor in the middle of the screen;
         }
         else
