@@ -1,0 +1,5 @@
+name: ProBuilder
+identifier: ProBuilder_AboutWindowIdentifier
+version: 2.9.3f0 (Ludam Dare 39 Game Jam Edition)
+date: 07-20-2017
+changelog: Assets/ProCore/ProBuilder/About/changelog.txt

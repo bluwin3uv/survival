@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: 910b83f0e635a974ca60cd6f35572459
+timeCreated: 1508497951
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: AlienEgg
+    100004: Armature
+    100006: egg
+    100008: egg_lid1_back
+    100010: egg_lid1_front
+    100012: egg_lid1_left
+    100014: egg_lid1_right
+    100016: egg_lid2_back
+    100018: egg_lid2_front
+    100020: egg_lid2_left
+    100022: egg_lid2_right
+    100024: egg_lid3_back
+    100026: egg_lid3_front
+    100028: egg_lid3_left
+    100030: egg_lid3_right
+    100032: egg_root
+    100034: egg_root1_back
+    100036: egg_root1_front
+    100038: egg_root1_left
+    100040: egg_root1_right
+    100042: egg_root2_back
+    100044: egg_root2_front
+    100046: egg_root2_left
+    100048: egg_root2_right
+    100050: egg_root3_back
+    100052: egg_root3_front
+    100054: egg_root3_left
+    100056: egg_root3_right
+    100058: egg_root4_back
+    100060: egg_root4_front
+    100062: egg_root4_left
+    100064: egg_root4_right
+    100066: egg_root5_back
+    100068: egg_root5_front
+    100070: egg_root5_left
+    100072: egg_root5_right
+    100074: egg_root6_back
+    100076: egg_root6_front
+    100078: egg_root6_left
+    100080: egg_root6_right
+    100082: ground_root
+    400000: //RootNode
+    400002: AlienEgg
+    400004: Armature
+    400006: egg
+    400008: egg_lid1_back
+    400010: egg_lid1_front
+    400012: egg_lid1_left
+    400014: egg_lid1_right
+    400016: egg_lid2_back
+    400018: egg_lid2_front
+    400020: egg_lid2_left
+    400022: egg_lid2_right
+    400024: egg_lid3_back
+    400026: egg_lid3_front
+    400028: egg_lid3_left
+    400030: egg_lid3_right
+    400032: egg_root
+    400034: egg_root1_back
+    400036: egg_root1_front
+    400038: egg_root1_left
+    400040: egg_root1_right
+    400042: egg_root2_back
+    400044: egg_root2_front
+    400046: egg_root2_left
+    400048: egg_root2_right
+    400050: egg_root3_back
+    400052: egg_root3_front
+    400054: egg_root3_left
+    400056: egg_root3_right
+    400058: egg_root4_back
+    400060: egg_root4_front
+    400062: egg_root4_left
+    400064: egg_root4_right
+    400066: egg_root5_back
+    400068: egg_root5_front
+    400070: egg_root5_left
+    400072: egg_root5_right
+    400074: egg_root6_back
+    400076: egg_root6_front
+    400078: egg_root6_left
+    400080: egg_root6_right
+    400082: ground_root
+    4300000: AlienEgg
+    9500000: //RootNode
+    13700000: AlienEgg
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

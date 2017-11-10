@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/mktest.unity
+- path: Assets/Scene/Offline.unity
   isLoaded: 1
   isActive: 1
